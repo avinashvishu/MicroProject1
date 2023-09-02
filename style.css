@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@400;500&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* html,
+body {
+    overflow: hidden;
+} */
+
+body {
+    background-color: #FFCD9E;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main {
+    /* background-color: red; */
+    display: flex;
+    height: 474px;
+}
+
+.left {
+    /* max-width: 576px; */
+    padding: 83px 0px 0px 136px;
+    flex: 1.2;
+}
+
+.left>p {
+    max-width: 495px;
+    font-style: normal;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.left>h3 {
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+    color: #282828;
+}
+
+.left input {
+    border: 3px solid #000;
+    border-radius: 8px;
+    height: 38px;
+    width: 289px;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+.left button {
+    width: 176px;
+    height: 44px;
+    background-color: #282828;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.left div {
+    width: 289px;
+    height: 61px;
+    color: #FFF;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.left>h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #282828;
+    margin-bottom: 28px;
+}
+
+.left>p {
+    font-weight: 500;
+    color: #282828;
+    font-size: 20px;
+}
+
+.right {
+    height: 388px;
+    width: 575px;
+    flex: 0.9;
+    padding: 53px 0 0 65px;
+}
+
+.right img {
+    height: auto;
+    width: 334px;
+}
+
+.footer {
+    background-color: #282828;
+    height: 233px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    z-index: -5;
+}
+
+.footer>div>ul {
+    list-style: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.footList {
+    padding-left: 191px;
+}
+
+.footList a,
+.footInfo a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footList li a:hover {
+    text-decoration: none;
+    color: #9b92fe;
+}
+
+.footInfo {
+    padding-right: 193px;
+    text-align: right;
+}
+
+.footInfo li a:hover {
+    text-decoration: none;
+    color: #9b92fe;
+}
+
+.footInfo li div {
+    margin-top: 20px;
+}
