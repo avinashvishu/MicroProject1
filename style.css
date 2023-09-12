@@ -130,8 +130,7 @@ body {
     color: #FFFFFF;
 }
 
-.footList li a:hover {
-    text-decoration: none;
+.footList ul li a:hover {
     color: #9b92fe;
 }
 
@@ -140,8 +139,7 @@ body {
     text-align: right;
 }
 
-.footInfo li a:hover {
-    text-decoration: none;
+.footInfo ul li:hover {
     color: #9b92fe;
 }
 
